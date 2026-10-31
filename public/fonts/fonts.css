@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'GFF ShahGCreator';
+  src: url('/fonts/GFF-Latin-Thin.ttf') format('truetype'),
+       url('https://ffcl.vercel.app/Fonts/GFF-Latin-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GFF ShahGCreator';
+  src: url('/fonts/GFF-Latin-Regular.ttf') format('truetype'),
+       url('https://ffcl.vercel.app/Fonts/GFF-Latin-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GFF ShahGCreator';
+  src: url('/fonts/GFF-Latin-Medium.ttf') format('truetype'),
+       url('https://ffcl.vercel.app/Fonts/GFF-Latin-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'GFF ShahGCreator';
+  src: url('/fonts/GFF-Latin-Bold.ttf') format('truetype'),
+       url('https://ffcl.vercel.app/Fonts/GFF-Latin-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

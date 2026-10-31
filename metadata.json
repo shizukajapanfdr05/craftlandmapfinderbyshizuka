@@ -1,0 +1,6 @@
+{
+  "name": "Craftland Map Finder",
+  "description": "Search Free Fire Craftland Map Code and get analysis of Craftland map and Details.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

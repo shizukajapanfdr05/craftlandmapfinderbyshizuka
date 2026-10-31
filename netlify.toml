@@ -1,0 +1,23 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Proxy /api/map to upstream /go/map
+[[redirects]]
+  from = "/api/map"
+  to = "https://ffcl.vercel.app/go/map"
+  status = 200
+  force = true
+
+# Proxy /api/get to upstream /go/get
+[[redirects]]
+  from = "/api/get"
+  to = "https://ffcl.vercel.app/go/get"
+  status = 200
+  force = true
+
+# SPA fallback routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
